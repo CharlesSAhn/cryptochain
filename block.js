@@ -26,6 +26,8 @@ class Block{
             hash: cryptoHash(timestamp, lastHash, data)
         });
     }
+
+
 }
 
 module.exports = Block;
